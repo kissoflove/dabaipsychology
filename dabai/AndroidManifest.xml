@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="consult.psychological.dabai"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+          <activity
+         	android:name="consult.psychological.dabai.activity.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="consult.psychological.dabai.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/TimeAppTheme" >
+            
+        </activity>
+        <activity
+            android:name="consult.psychological.dabai.activity.ArticleContentActivity"
+            android:theme="@style/ActionBarTheme" >
+        </activity>
+        <activity
+            android:name="consult.psychological.dabai.activity.BaseActivity"
+            android:theme="@style/ActionBarTheme" >
+        </activity>
+     
+        <activity
+            android:name="consult.psychological.dabai.activity.SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="consult.psychological.dabai.activity.FBActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FBAppTheme" >
+        </activity>
+        <activity
+            android:name="consult.psychological.dabai.activity.FeedBackActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+             android:theme="@style/FBAppTheme"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity android:name="consult.psychological.dabai.activity.EnglishContentActivity" >
+        </activity>
+        <activity android:name="com.umeng.fb.ConversationActivity" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="54ab7c5cfd98c589c3000792" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Umeng" >
+        </meta-data>
+
+        <service android:name="consult.psychological.dabai.service.AppUpdateService" >
+        </service>
+    </application>
+
+</manifest>

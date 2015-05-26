@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#009688</color>
+    <color name="primary_pressed">#26a69a</color>
+    <color name="ldrawer_color">#FFFFFF</color>
+    <color name="actionbar_color">#019587</color>
+    <color name="drawer_arrow_second_color">#303f9f</color>
+	<color name="drawer_bottom_line">#DFDFDF</color>
+	<color name="drawer_bottom_bg">#F0F0F0</color>
+	 <color name="background_color">#ffdbdada</color>
+    <color name="white">#ffffffff</color>
+    <color name="gray">#ffc3c3c3</color>
+    <color name="black">#ff000000</color>
+	    <color name="float_transparent">#66000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#20BCA6</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+</resources>

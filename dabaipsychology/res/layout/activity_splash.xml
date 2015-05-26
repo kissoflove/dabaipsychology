@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/splash_id"
+    android:background="@color/actionbar_color" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="88dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+      <consult.psychological.dabai.lib.RoundedImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/iv_main_left_head"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="fitCenter"
+                    app:riv_border_color="#FFF"
+                    app:riv_border_width="2dip"
+                    app:riv_corner_radius="30dip"
+                     android:src="@drawable/ic_home"
+                    app:riv_mutate_background="true"
+                    app:riv_oval="true" />
+
+        <TextView
+            android:id="@+id/logo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="@string/app_name"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+             />
+    </LinearLayout>
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+       android:text="@string/phone"
+       android:visibility="gone"
+       android:layout_marginTop="30dp"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp" />
+    <TextView
+        android:id="@+id/logo_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dip"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+</RelativeLayout>

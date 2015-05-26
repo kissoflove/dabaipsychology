@@ -1,0 +1,59 @@
+# view res/layout/activity_main.xml #generated:1
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view res/layout/fragment_everydayenglish.xml #generated:8
+# view res/layout/fragment_home.xml #generated:7
+# view res/layout/fragment_other.xml #generated:5
+-keep class android.support.v4.widget.SwipeRefreshLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.umeng.fb.ConversationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class consult.psychological.dabai.activity.ArticleContentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class consult.psychological.dabai.activity.BaseActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class consult.psychological.dabai.activity.EnglishContentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class consult.psychological.dabai.activity.FBActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class consult.psychological.dabai.activity.FeedBackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class consult.psychological.dabai.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class consult.psychological.dabai.activity.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class consult.psychological.dabai.activity.SplashActivity { <init>(...); }
+
+# view res/layout/alert_dialog.xml #generated:75
+-keep class consult.psychological.dabai.dialog.SuccessTickView { <init>(...); }
+
+# view res/layout/toast.xml #generated:7
+-keep class consult.psychological.dabai.lib.CircleImageView { <init>(...); }
+
+# view res/layout/fragment_everydayenglish.xml #generated:33
+-keep class consult.psychological.dabai.lib.RoundImageView { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:33
+# view res/layout/activity_main.xml #generated:54
+# view res/layout/activity_splash.xml #generated:16
+# view res/layout/item_tui.xml #generated:13
+-keep class consult.psychological.dabai.lib.RoundedImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class consult.psychological.dabai.service.AppUpdateService { <init>(...); }
+
+# onClick res/layout/activity_article_content.xml #generated:55
+-keepclassmembers class * { *** onClickFinish(...); }
+
+# onClick res/layout/activity_article_content.xml #generated:69
+-keepclassmembers class * { *** onClickShare(...); }
+
